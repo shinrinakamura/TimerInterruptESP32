@@ -9,6 +9,16 @@
 1分経過ごとに経過した分数を教えてくれます。<br>
 ダウンロードしたプログラムはArduinoIDEを利用してESP32に書き込むことができます。
 
+##publishMQTT_timer_interrupt.ino<br>
+これはESP32のハードウェアタイマー割り込みで少し重めの処理を行うテストプログラムです<br>
+だいたい1秒ごとにカウントアップしていきます<br>
+指定した時間ごとにタイマー割り込みを行いMQTTを総ん視します<br>
+ダウンロードしたプログラムはArduinoIDEを利用してESP32に書き込むことができますが<br>
+mqtt用のライブラリが必要になります<br>
+おそらくこのライブラリで動きます（未試験）
+https://github.com/knolleary/pubsubclient<br>
+
+
 ## English explanation<br>
 This is a program that tries the timer interrupt of the ESP32 hardware timer<br>
 Counts up almost every second<br>
