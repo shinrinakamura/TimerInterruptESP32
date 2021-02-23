@@ -16,7 +16,7 @@ If it is a multiple of 15, it will be displayed as FizzBuzz.<br>
 The reason why saaaaaaaaaaaaaaaaaaaaaaaaaaaan is stupid<br>
 It's a Japanese joke<br>
 The reason why one is dog<br>
-That's because the one sound is the bark of a Japanese dog<br>
+That's because the one sound is the barking of a Japanese dog<br>
 That's because the "one" sound is the barking of a Japanese dog<br>
 It will tell you how many minutes have passed every minute<br>
 The downloaded program can be written to the ESP32 using the Arduino IDE
