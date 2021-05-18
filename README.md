@@ -18,7 +18,7 @@ mqtt用のライブラリが必要になります<br>
 おそらくこのライブラリで動きます（未試験）
 https://github.com/knolleary/pubsubclient<br>
 
-## multithreadInterrupt_simple<br>
+## multithread_interrupt_simple.ino<br>
 これはESP32のハードウェアタイマーと、マルチスレッドを同時に行うテストプログラムです。<br>
 メインループでは大体1秒に1回カウントアップして、10秒に1回タイマー割り込みが入ります。<br>
 マルチスレッドは大体5秒に1回カウントアップして、20秒に1回タイマー割り込みが入ります。<br>
